@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-image: url(https://i.pinimg.com/736x/8d/62/20/8d62209ede143de3d09b52e88a630458.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Protest Riot", sans-serif;
+  }
+
+  .container {
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cat-img {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+  }
+  
+  .title {
+    font-size: 3.6rem;
+    color: #f53699;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 1.5rem 2.5rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn--yes {
+    background-color: #40c057;
+  }
+  .btn--yes:hover {
+    background-color: #2b8a3e;
+    transition: background-color 0.5s ease;
+  }
+  
+  .btn--no {
+    background-color: #f03e3e;
+  }
+  .btn--no:hover {
+    background-color: #a52727;
+    transition: background-color 0.5s ease;
+  }
+
+  .btn--reload {
+    background-color: black;
+  }
+  .btn--reload:hover {
+    background-color: #ff69b4;
+    transition: background-color 0.5s ease;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  audio {
+    position: absolute;
+    right: 110rem;
+    bottom: 35rem;
+    background-color: #f53699;
+    opacity: 0.6;
+    border-radius: 6px;
+  }
+
