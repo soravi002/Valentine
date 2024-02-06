@@ -70,7 +70,7 @@ function handleMouseMove(event) {
 }
 
 function handleYesclick() {
-    titleElement.innerHTML = "Yayyy!! Finally I gotchu <3. See you on the 14th babygirl 😍😘";
+    titleElement.innerHTML = "Yayyy!! Finally I got you <3. See you on the 14th babygirl 😍😘";
     buttonsContainer.classList.add("hidden");
     reloadButton.classList.remove("hidden");
     changeImage("yes");

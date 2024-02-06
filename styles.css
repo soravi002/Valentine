@@ -110,7 +110,6 @@
   
   body {
     background-image: url(https://i.pinimg.com/474x/7d/fe/74/7dfe7425b77aa3deac2b9615a0e4c2cb.jpg);
-    background-size: cover;
     background-position: center;
     font-family: "Protest Riot", sans-serif;
   }
@@ -129,7 +128,7 @@
     height: 30rem;
     margin-bottom: 2rem;
     border-radius: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 47rem;
   }
   
@@ -146,7 +145,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.1rem;
   }
   
   .btn {
@@ -215,7 +214,6 @@
   
   body {
     background-image: url(https://i.pinimg.com/474x/7d/fe/74/7dfe7425b77aa3deac2b9615a0e4c2cb.jpg);
-    background-size: cover;
     background-position: center;
     font-family: "Protest Riot", sans-serif;
   }
@@ -234,7 +232,7 @@
     height: 24rem;
     margin-bottom: 2rem;
     border-radius: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 39rem;
   }
   
@@ -259,7 +257,7 @@
     border: none;
     border-radius: 4px;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     cursor: pointer;
     display: inline-block;
@@ -339,7 +337,7 @@
     height: 34rem;
     margin-bottom: 2rem;
     border-radius: 20px;
-    position: fixed;
+    position: absolute;
     bottom: 39rem;
   }
   
