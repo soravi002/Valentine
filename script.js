@@ -6,6 +6,7 @@ const reloadButton = document.querySelector(".btn--reload");
 const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImage = document.querySelector(".cat-img");
+const song = document.querySelector("audio");
 
 const MAX_IMAGES = 10;
 
@@ -64,12 +65,15 @@ reloadButton.addEventListener("click", function () {
     location.reload();
 })
 
+function handleMouseMove(event) {
+    song.play();
+}
+
 function handleYesclick() {
     titleElement.innerHTML = "Yayyy!! Finally I gotchu <3. See you on the 14th babygirl 😍😘";
     buttonsContainer.classList.add("hidden");
     reloadButton.classList.remove("hidden");
     changeImage("yes");
-    re
 }
 
 function changeImage(image) {
